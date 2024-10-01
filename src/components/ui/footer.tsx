@@ -2,9 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { navItems } from '@/data'
-import { FaFacebook } from 'react-icons/fa'
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
-import { LiaLinkedin } from 'react-icons/lia'
 function Footer() {
   return (
     <footer className='bg-primary text-primary'>

@@ -21,7 +21,7 @@ async function CategorySection({category}: {category: string}) {
             
             <div className='flex justify-between gap-4'>
                 {teslaBlogs.map((blog: BlogType, index: number) => (
-                    <SingleListedBlog key={index} category={category} blog={blog} />
+                    <SingleListedBlog key={index}  blog={blog} />
                 ))}
             </div>
         </div>

@@ -2,7 +2,6 @@ import React from 'react'
 import Button from './ui/button'
 import { FiSend } from 'react-icons/fi'
 import { heroSectionContentType } from '@/types'
-import Image from 'next/image'
 function Hero({page, content}: {page: string, content: heroSectionContentType}) {
     return (
         <div className={`h-[46vw] bg-cover bg-no-repeat ${page ==='home' ? 'hero-section-home' : 'hero-section-blogs'}`}>

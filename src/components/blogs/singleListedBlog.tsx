@@ -4,7 +4,7 @@ import PublishDetail from '../blogs/publishDetail'
 import { urlFor } from '@/sanity/lib/image'
 import Link from 'next/link'
 import { BlogType } from '@/types'
-function SingleListedBlog({category, blog}: {category: string, blog: BlogType}) {
+function SingleListedBlog({ blog}: { blog: BlogType}) {
   return (
     <Link href={`/blogs/${blog._id}`}>
     <div className='bg-[#F4F0F8] flex flex-col gap-3 p-4 my-2 rounded-md'>

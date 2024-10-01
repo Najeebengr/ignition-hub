@@ -10,7 +10,7 @@ export default function BlogsList({blogs}: {blogs: BlogType[]}) {
   return (
     blogs.map((blog: BlogType)=>{
     return(
-    <div className='flex flex-col gap-4'>
+    <div key={blog._id} className='flex flex-col gap-4'>
     <div className='flex justify-between gap-6'>
       <div className='basis-3/4'>
       <Link href={`/blogs/${blog._id}`}>
