@@ -3,7 +3,7 @@ import React from 'react'
 
 function Button({variant, text, icon}: buttonType) {
   return (
-    <button className={`bg-${variant} flex items-center gap-2 text-white px-5 py-2 rounded-md`}>
+    <button className={`bg-secondary flex items-center gap-2 text-white px-5 py-2 rounded-md`}>
         {text}
         {icon}
     </button>
