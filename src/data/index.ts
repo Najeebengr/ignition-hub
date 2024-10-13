@@ -5,7 +5,6 @@ import { navItem, testimonialsType } from "@/types";
 export const navItems: navItem = [
   { name: 'Home', link: '/' },
   { name: 'Blogs', link: '/blogs' },
-  // Add more items as needed
 ];
 
 export const testimonials: testimonialsType[] = [
@@ -40,37 +39,3 @@ export const heroSectionContent = [
 
 ]
 
-export const blogs = [
-  {
-    id: 1,
-    title: 'A Review of Cars with Advanced Infotainment Systems',
-    publishDate: 'March 12, 2024',
-    author: 'John Doe',
-    description: 'Lorem ipsum dolor sit amet consectetur. Consectetur risus quis diam hendrerit. Interdum mattis in sed diam egestas metus at duis commodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet. ommodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet.',
-    blogImage: '/assets/blog.png'
-  },
-  {
-    id: 2,
-    title: 'A Review of Cars with Advanced Infotainment Systems2',
-    publishDate: 'March 12, 2024',
-    author: 'John Doe',
-    description: 'Lorem ipsum dolor sit amet consectetur. Consectetur risus quis diam hendrerit. Interdum mattis in sed diam egestas metus at duis commodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet. ommodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet.',
-    blogImage: '/assets/blog.png'
-  },
-  {
-    id: 3,
-    title: 'A Review of Cars with Advanced Infotainment Systems3',
-    publishDate: 'March 12, 2024',
-    author: 'John Doe',
-    description: 'Lorem ipsum dolor sit amet consectetur. Consectetur risus quis diam hendrerit. Interdum mattis in sed diam egestas metus at duis commodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet. ommodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet.',
-    blogImage: '/assets/blog.png'
-  },
-  {
-    id: 4,
-    title: 'A Review of Cars with Advanced Infotainment Systems4',
-    publishDate: 'March 12, 2024',
-    author: 'John Doe',
-    description: 'Lorem ipsum dolor sit amet consectetur. Consectetur risus quis diam hendrerit. Interdum mattis in sed diam egestas metus at duis commodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet. ommodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet.',
-    blogImage: '/assets/blog.png'
-  }
-]

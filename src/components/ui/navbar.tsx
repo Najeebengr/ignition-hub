@@ -4,7 +4,7 @@ import { navItem } from '@/types'
 import Link from 'next/link'
 import Button from './button'
 
-function Navbar({ navItems }: { navItems: navItem[] }) {
+function Navbar({ navItems }: { navItems: navItem }) {
   return (
     <header className='w-full top-0 left-0 right-0 z-50 bg-white shadow-md'>
       <div className='max-w-7xl mx-auto'>
